@@ -55,6 +55,8 @@ const DatePickerForm = () => {
                 <option className="" value={"5"} > 4 </option>
                 <option className="" value={"6"} > 5 </option>
                 <option className="" value={"7"} > 6 </option>
+                <option className="" value={"7"} > 7 </option>
+              
               </select>
             </div> 
           </div>
