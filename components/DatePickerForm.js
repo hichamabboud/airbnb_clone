@@ -27,7 +27,7 @@ const DatePickerForm = () => {
           <div className=" outline outline-1 outline-gray-400 py-2 px-4 mt-4 rounded-lg w-full grid grid-cols-2 divide-x-2 ">
             <div className="">
               <label htmlFor="adults" className="block text-[10px] leading-3 text-[#222222] tracking-wide uppercase"> adults </label>
-              <select className="w-40 border-none" defaultValue="5"  id="adults">
+              <select className="w-40 border-none" defaultValue="2"  id="adults">
                 <option className=" border-none" value={"1"} > 1 </option>
                 <option className="" value={"2"} > 2 </option>
                 <option className="" value={"3"} > 3 </option>
@@ -54,8 +54,6 @@ const DatePickerForm = () => {
                 <option className="" value={"4"} > 3 </option>
                 <option className="" value={"5"} > 4 </option>
                 <option className="" value={"6"} > 5 </option>
-                <option className="" value={"7"} > 6 </option>
-                <option className="" value={"7"} > 7 </option>
               
               </select>
             </div> 
